@@ -1,0 +1,6 @@
+framework module Pods_abstract_project_frame_QBBaseProjectFrame {
+  umbrella header "Pods-abstract_project_frame-QBBaseProjectFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}

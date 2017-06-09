@@ -1,0 +1,6 @@
+framework module QBNavBarCustom {
+  umbrella header "QBNavBarCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

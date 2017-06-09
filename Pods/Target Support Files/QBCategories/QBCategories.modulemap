@@ -1,0 +1,6 @@
+framework module QBCategories {
+  umbrella header "QBCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

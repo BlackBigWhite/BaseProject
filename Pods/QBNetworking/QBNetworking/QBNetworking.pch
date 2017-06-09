@@ -1,0 +1,27 @@
+//
+//  QBNetworking.pch
+//  Pods
+//
+//  Created by lizhihui on 2017/1/5.
+//
+//
+
+#ifndef QBNetworking_pch
+#define QBNetworking_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef DEBUG
+//PS： 以后调试的打印统一使用 ZBLog(...); 打包时候自动会去掉NSLog信息。ZB--> ：珠宝项目名缩写
+#define NetLog(...)  NSLog(__VA_ARGS__)
+
+#else
+
+#define NetLog(...)
+
+#endif
+
+#import "QBRequestModel.h"
+#import "QBResponseModel.h"
+
+#endif /* QBNetworking_pch */

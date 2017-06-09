@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>viewcontrollers</key>
+	<array>
+		<dict>
+			<key>controller</key>
+			<string>QBTableViewController</string>
+			<key>viewModel</key>
+			<string>QBTableViewModel</string>
+			<key>title</key>
+			<string>首页</string>
+			<key>image</key>
+			<string>tab_home</string>
+			<key>selectedImage</key>
+			<string>tab_home_selected</string>
+		</dict>
+		<dict>
+			<key>controller</key>
+			<string>QBViewController</string>
+			<key>viewModel</key>
+			<string>QBViewModel</string>
+			<key>title</key>
+			<string>附近</string>
+			<key>image</key>
+			<string>tab_nearby</string>
+			<key>selectedImage</key>
+			<string>tab_nearby_selected</string>
+		</dict>
+		<dict>
+			<key>controller</key>
+			<string>QBViewController</string>
+			<key>viewModel</key>
+			<string>QBViewModel</string>
+			<key>title</key>
+			<string>我的</string>
+			<key>image</key>
+			<string>tab_mine</string>
+			<key>selectedImage</key>
+			<string>tab_mine_selected</string>
+		</dict>
+	</array>
+	<key>tabbar</key>
+	<dict>
+		<key>tintColor</key>
+		<string>f94e4e</string>
+		<key>barTintColor</key>
+		<string>f9f9f9</string>
+	</dict>
+</dict>
+</plist>
